@@ -356,6 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5dfd19721ea4a6dbd856df8ef1fff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playeranimator: {fileID: 1798827698}
   rb: {fileID: 1798827696}
 --- !u!54 &1798827696
 Rigidbody:
@@ -366,7 +367,7 @@ Rigidbody:
   m_GameObject: {fileID: 1798827692}
   serializedVersion: 4
   m_Mass: 100
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -403,10 +404,15 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1.4319162
+  m_Radius: 0.3953538
+  m_Height: 1.339331
   m_Direction: 1
-  m_Center: {x: 0, y: 0.6253607, z: 0}
+  m_Center: {x: 0, y: 0.67165333, z: 0.104646206}
+--- !u!95 &1798827698 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: b05d88349cc654b3fa17990268a183a0, type: 3}
+  m_PrefabInstance: {fileID: 1971856729}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1919419967
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b05d88349cc654b3fa17990268a183a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000009536743
+      value: -0.013
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b05d88349cc654b3fa17990268a183a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -551,7 +557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b05d88349cc654b3fa17990268a183a0, type: 3}
       propertyPath: m_Name
-      value: Ch14_nonPBR@Idle
+      value: Mouzee
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: b05d88349cc654b3fa17990268a183a0, type: 3}
       propertyPath: m_Controller
